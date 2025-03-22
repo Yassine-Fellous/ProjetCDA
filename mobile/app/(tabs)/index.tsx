@@ -9,7 +9,7 @@ export default function HomeScreen() {
   const [message, setMessage] = useState("Chargement...");
   
   useEffect(() => {
-    fetch("http://192.168.1.32:8000/") // Remplace l'IP si besoin
+    fetch("http://localhost:8000/") // Remplace l'IP si besoin
     .then(response => response.json())
     .then(data => setMessage(data.message))
     .catch(error => {
