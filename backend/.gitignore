@@ -1,0 +1,16 @@
+# 🐍 Environnement virtuel Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# 🔧 Fichiers de configuration Django
+.env
+*.env
+settings_local.py
+
+# 📦 Dépendances
+db.sqlite3
+migrations/

@@ -1,0 +1,14 @@
+# 🔥 Logs et caches
+*.log
+debug.log
+.DS_Store
+
+# 🚀 Docker
+docker-compose.override.yml
+*.dockerfile
+.env
+
+# 🏗️ Éditeurs et IDE
+.vscode/
+.idea/
+*.iml

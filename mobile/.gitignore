@@ -36,3 +36,27 @@ yarn-error.*
 *.tsbuildinfo
 
 app-example
+
+# 📦 Node.js / Expo
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+.expo/
+.expo-shared/
+
+# 🖼️ Build & Android/iOS
+android/
+ios/
+build/
+*.apk
+*.ipa
+
+# 🔧 Config locale & cache
+.env
+.env.local
+.env.development
+.env.production
+babel.config.js
+metro.config.js
